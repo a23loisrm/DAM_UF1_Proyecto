@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">UF1_Proxecto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Ola fragmento en branco</string>
+    <string name="audiometrias">Historial de audiometrías</string>
+    <string name="fechaAudiometría2009">4 de setembro de 2009</string>
+    <string name="fechaAudiometría2010">29 de decembro de 2010</string>
+    <string name="fechaAudiometría2012">21 de agosto de 2012</string>
+    <string name="fechaAudiometría2013">25 de marzo de 2013</string>
+    <string name="fechaAudiometría2014">18 de xuño de 2014</string>
+    <string name="fechaAudiometría2015">29 de xullo de 2015</string>
+    <string name="fechaAudiometría2016">22 de febreiro de 2016</string>
+    <string name="fechaAudiometría2017">7 de outubro de 2017</string>
+    <string name="fechaAudiometría2018">29 de xuño de 2018</string>
+    <string name="fechaAudiometría2019">3 de xullo de 2019</string>
+    <string name="fechaAudiometría2024">20 de maio de 2024</string>
+    <string name="selecciónFechaCita">Seleccione unha data para a cita:</string>
+    <string name="selecciónHorarioCita">Seleccione unha hora para a cita:</string>
+    <string name="btnPedirCita">Pedir cita</string>
+    <string name="txtRecordatorios">Recordatorios</string>
+    <string name="txtOidoDerecho">Oído Dereito</string>
+    <string name="txtOidoIzquierdo">Oído Esquerdo</string>
+    <string name="citaConExito">Cita pedida con éxito.</string>
+    <string name="verCita">Ver cita</string>
+    <string name="txtAudiometriasMenu">Audiometrías</string>
+    <string name="txtCitasMenu">Citas</string>
+    <string name="txtRecordatorioMenu">Recordatorio</string>
+    <string name="descripcion">Descrición</string>
+    <string name="fechayhora">Data e hora</string>
+    <string name="citaEn">Cita ás</string>
+    <string name="horaPasada">A hora seleccionada xa pasou.</string>
+    <string name="fechaValida">Introduza unha data válida.</string>
+    <string name="seleccionHorario">Por favor, seleccione unha hora</string>
+    <string name="btnAgregarRecordatorio">Engadir Recordatorio</string>
+    <string name="descripcionRecordatorio">Descrición do recordatorio</string>
+    <string name="audiometriasTitulo">Audiometrías</string>
+    <string name="audiometria">Audiometría</string>
+    <string name="citas">Citas</string>
+    <string name="exito">Éxito</string>
+    <string name="nuevoRecordatorio">Novo Recordatorio</string>
+    <string name="recordatorios">Recordatorios</string>
+    <string name="ingreseDescripcion">Por favor, introduza unha descrición.</string>
+</resources>

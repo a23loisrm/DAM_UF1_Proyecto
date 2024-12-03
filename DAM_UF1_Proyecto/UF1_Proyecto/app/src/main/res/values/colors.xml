@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fondoCartas">#bfbfbf</color>
+    <color name="grisFondo">#ececf3</color>
+    <color name="violeta">#6A0DAD</color>
+    <color name="lavanda">#B57EDC</color>
+    <color name="rojo">#fe0000</color>
+    <color name="azul">#0000ff</color>
+    <color name="azulClaro">#1f77b4</color>
+    <color name="verdeClaro">#2ca02c</color>
+    <color name="amarilloClaro">#ffcc00</color>
+    <color name="azulOscuro">#44749D</color>
+    <color name="hielo">#C6D4E1</color>
+    <color name="crema">#EBE7E0</color>
+    <color name="marronlaro">#BDB8AD</color>
+
+
+
+
+</resources>

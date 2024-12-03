@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/audiometrias">
+
+    <fragment
+        android:id="@+id/audiometrias"
+        android:name="com.example.uf1_proyecto.fragments.Audiometrias"
+        android:label="@string/audiometriasTitulo" >
+        <action
+            android:id="@+id/action_audiometrias_to_audiometria"
+            app:destination="@id/audiometria"
+            app:popUpTo="@id/audiometrias"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/recordatorios"
+        android:name="com.example.uf1_proyecto.fragments.Recordatorios"
+        android:label="@string/recordatorios" >
+        <action
+            android:id="@+id/action_recordatorios_to_agregarRecordatorio"
+            app:destination="@id/agregarRecordatorio"
+            app:popUpTo="@id/recordatorios"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_recordatorios_to_citas"
+            app:destination="@id/citas" />
+    </fragment>
+    <fragment
+        android:id="@+id/citas"
+        android:name="com.example.uf1_proyecto.fragments.Citas"
+        android:label="@string/citas" >
+        <action
+            android:id="@+id/action_citas_to_citaConExito"
+            app:destination="@id/citaConExito"
+            app:popUpTo="@id/citas"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/audiometria"
+        android:name="com.example.uf1_proyecto.fragments.Audiometria"
+        android:label="@string/audiometria"
+        tools:layout="@layout/fragment_audiometria" />
+    <fragment
+        android:id="@+id/agregarRecordatorio"
+        android:name="com.example.uf1_proyecto.fragments.AgregarRecordatorio"
+        android:label="@string/nuevoRecordatorio" >
+        <action
+            android:id="@+id/action_agregarRecordatorio_to_recordatorios"
+            app:destination="@id/recordatorios"
+            app:popUpTo="@id/recordatorios"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/citaConExito"
+        android:name="com.example.uf1_proyecto.fragments.CitaConExito"
+        android:label="@string/exito" >
+        <action
+            android:id="@+id/action_citaConExito_to_recordatorios"
+            app:destination="@id/recordatorios"
+            app:popUpTo="@id/citas"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">UF1_Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="audiometrias">Audiometry History</string>
+    <string name="fechaAudiometría2009">September 4, 2009</string>
+    <string name="fechaAudiometría2010">December 29, 2010</string>
+    <string name="fechaAudiometría2012">August 21, 2012</string>
+    <string name="fechaAudiometría2013">March 25, 2013</string>
+    <string name="fechaAudiometría2014">June 18, 2014</string>
+    <string name="fechaAudiometría2015">July 29, 2015</string>
+    <string name="fechaAudiometría2016">February 22, 2016</string>
+    <string name="fechaAudiometría2017">October 7, 2017</string>
+    <string name="fechaAudiometría2018">June 29, 2018</string>
+    <string name="fechaAudiometría2019">July 3, 2019</string>
+    <string name="fechaAudiometría2024">May 20, 2024</string>
+    <string name="selecciónFechaCita">Select a date for the appointment:</string>
+    <string name="selecciónHorarioCita">Select a time for the appointment:</string>
+    <string name="btnPedirCita">Request appointment</string>
+    <string name="txtRecordatorios">Reminders</string>
+    <string name="txtOidoDerecho">Right Ear</string>
+    <string name="txtOidoIzquierdo">Left Ear</string>
+    <string name="citaConExito">Appointment successfully requested.</string>
+    <string name="verCita">View appointment</string>
+    <string name="txtAudiometriasMenu">Audiometries</string>
+    <string name="txtCitasMenu">Appointments</string>
+    <string name="txtRecordatorioMenu">Reminder</string>
+    <string name="descripcion">Description</string>
+    <string name="fechayhora">Date and time</string>
+    <string name="citaEn">Appointment at</string>
+    <string name="horaPasada">The selected time has already passed.</string>
+    <string name="fechaValida">Please enter a valid date.</string>
+    <string name="seleccionHorario">Please select a time</string>
+    <string name="btnAgregarRecordatorio">Add Reminder</string>
+    <string name="descripcionRecordatorio">Reminder description</string>
+    <string name="audiometriasTitulo">Audiometries</string>
+    <string name="audiometria">Audiometry</string>
+    <string name="citas">Appointments</string>
+    <string name="exito">Success</string>
+    <string name="nuevoRecordatorio">New Reminder</string>
+    <string name="recordatorios">Reminders</string>
+    <string name="ingreseDescripcion">Please enter a description.</string>
+
+</resources>
