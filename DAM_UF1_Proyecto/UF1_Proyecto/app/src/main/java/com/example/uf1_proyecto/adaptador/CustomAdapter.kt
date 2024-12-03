@@ -65,4 +65,14 @@ class CustomAdapter(private val recordatorios: MutableList<Recordatorio>) :
     // Return the size of your dataset (invoked by the layout manager)
     override fun getItemCount(): Int = recordatorios.size
 
+    // ordenar la fehca
+    fun ordenarPorFecha(ascendente: Boolean = true) {
+        if (ascendente) {
+            recordatorios.sortBy { it.fechaHora }
+        } else {
+            recordatorios.sortByDescending { it.fechaHora }
+        }
+        notifyDataSetChanged() // Notificar cambios al RecyclerView
+    }
+
 }

@@ -36,6 +36,8 @@ class Recordatorios : Fragment() {
         val adapter = CustomAdapter(DaoRecordatorio.listaRecordatorios)
         recyclerView.adapter = adapter
 
+        adapter.ordenarPorFecha(ascendente = true) //ordenar la fecha ascendentemente
+
         btnRecordatorio.setOnClickListener {
             view.findNavController().navigate(R.id.action_recordatorios_to_agregarRecordatorio)
         }
