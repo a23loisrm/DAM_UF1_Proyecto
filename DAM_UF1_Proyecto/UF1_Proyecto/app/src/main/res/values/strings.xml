@@ -40,5 +40,8 @@
     <string name="nuevoRecordatorio">Nuevo Recordatorio</string>
     <string name="recordatorios">Recordatorios</string>
     <string name="ingreseDescripcion">Por favor, ingrese una descripción.</string>
-
+    <string name="confirmarEliminacion">Confirmar eliminación</string>
+    <string name="mensajeEliminacion">¿Estás seguro de que deseas eliminar este recordatorio?</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
 </resources>

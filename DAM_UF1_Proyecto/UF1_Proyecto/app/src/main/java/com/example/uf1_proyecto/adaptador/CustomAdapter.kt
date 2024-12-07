@@ -12,9 +12,10 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-
-class CustomAdapter(private val recordatorios: MutableList<Recordatorio>) :
-    RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
+class CustomAdapter(private val recordatorios: MutableList<Recordatorio>
+,     private val onDelete: (Recordatorio) -> Unit) :
+    RecyclerView.Adapter<CustomAdapter.ViewHolder>()
+{
 
     /**
      * Provide a reference to the type of views that you are using
@@ -24,8 +25,10 @@ class CustomAdapter(private val recordatorios: MutableList<Recordatorio>) :
         val descripcion: TextView = view.findViewById(R.id.textDescripcion)
         val fechaHora: TextView = view.findViewById(R.id.textFechaHora)
         val imageFecha: ImageView = view.findViewById(R.id.imageFecha)
+        val btnDelete: ImageView = view.findViewById(R.id.btnDelete)
 
-        fun bind(recordatorio: Recordatorio) {
+
+        fun bind(recordatorio: Recordatorio, onDelete: (Recordatorio) -> Unit) {
             // Convertir el timestamp a fecha
             val date = Date(recordatorio.fechaHora)
             val dateFormat = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
@@ -44,6 +47,11 @@ class CustomAdapter(private val recordatorios: MutableList<Recordatorio>) :
             val imageResource = context.resources.getIdentifier("calendario$dia", "drawable", context.packageName)
             imageFecha.setImageResource(imageResource)  // Si la imagen existe, cargarla
 
+
+            // Configurar acción para el botón de eliminar
+            btnDelete.setOnClickListener {
+                onDelete(recordatorio)
+            }
         }
     }
 
@@ -60,7 +68,7 @@ class CustomAdapter(private val recordatorios: MutableList<Recordatorio>) :
 
         // Get element from your dataset at this position and replace the
         // contents of the view with that element
-        viewHolder.bind(recordatorios[position])
+        viewHolder.bind(recordatorios[position], onDelete)
     }
     // Return the size of your dataset (invoked by the layout manager)
     override fun getItemCount(): Int = recordatorios.size

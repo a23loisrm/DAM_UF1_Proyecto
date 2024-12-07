@@ -40,5 +40,8 @@
     <string name="nuevoRecordatorio">New Reminder</string>
     <string name="recordatorios">Reminders</string>
     <string name="ingreseDescripcion">Please enter a description.</string>
-
+    <string name="confirmarEliminacion">Confirm deletion</string>
+    <string name="mensajeEliminacion">Are you sure you want to delete this reminder?</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
 </resources>

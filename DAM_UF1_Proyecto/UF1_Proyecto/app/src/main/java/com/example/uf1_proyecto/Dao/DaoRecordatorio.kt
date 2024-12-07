@@ -45,4 +45,9 @@ object DaoRecordatorio {
             e.printStackTrace()
         }
     }
+
+    fun eliminarRecordatorio(context: Context, recordatorio: Recordatorio) {
+        listaRecordatorios.remove(recordatorio)
+        guardarRecordatorios(context)
+    }
 }
